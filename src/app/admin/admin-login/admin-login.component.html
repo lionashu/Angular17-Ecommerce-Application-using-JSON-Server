@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h3>Admin Login Pannel</h3>
+      <form name="form" #tf="ngForm" (ngSubmit)="tf.form.valid && onSubmitSignIn()" novalidate>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" name="userEmail" class="form-control" [(ngModel)]="signInFormValue.userEmail" #userEmail="ngModel" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" minlength="5" name="userPassword" class="form-control" [(ngModel)]="signInFormValue.userPassword" #userPassword="ngModel" required togglePassword>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary">Login</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>

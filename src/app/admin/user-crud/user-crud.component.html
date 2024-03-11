@@ -1,0 +1,189 @@
+<br>
+<div class="row">
+  <div class="col-md-10">
+    <strong>All User List</strong>
+  </div>
+  <div class="col-md-2"><button type="button" class="btn btn-dark float-right" (click)="addUserPopup()"
+    data-bs-toggle="modal" data-bs-target="#addEditUserModal">Add
+      New User</button></div>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Mob</th>
+      <th scope="col">Email</th>
+      <th scope="col">DOB</th>
+      <th scope="col">City</th>
+      <th scope="col">Role</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user_data of all_user_data; let i = index">
+      <th scope="row">{{i+1}}</th>
+      <td>{{user_data.name}}</td>
+      <td>{{user_data.mobNumber}}</td>
+      <td>{{user_data.email}}</td>
+      <td>{{user_data.dob}}</td>
+      <td>{{user_data.address.city}}</td>
+      <td>{{user_data.role}}</td>
+      <td>
+        <span class="sim-pointer" (click)="editUserPopup(user_data.id)" data-bs-toggle="modal"
+          data-bs-target="#addEditUserModal">Edit</span>
+        &nbsp;&nbsp;&nbsp;
+        <span class="sim-pointer" (click)="deleteUser(user_data.id)">Del</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- Modal for add and edit user  -->
+<div class="modal fade" id="addEditUserModal" tabindex="-1" role="dialog" aria-labelledby="addEditUserModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{popup_header}}</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">X</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <form [formGroup]="addEditUserForm">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" formControlName="name" />
+
+              </div>
+              <div class="form-group">
+                <label>Mobile Number</label>
+                <input type="tel" class="form-control" formControlName="mobNumber" />
+
+              </div>
+              <div class="form-group">
+                <label>Enter Your Age</label>
+                <input type="number" class="form-control" formControlName="age" />
+
+              </div>
+              <div class="form-group">
+                <label>ENter Your DOB</label>
+                <input type="date" class="form-control" formControlName="dob" />
+
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" placeholder="Email" formControlName="email">
+
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" placeholder="Password" formControlName="password">
+
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" placeholder="1234 Main St" formControlName="addLine1">
+
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" placeholder="Apartment, studio, or floor"
+                  formControlName="addLine2">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" formControlName="city">
+
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control" formControlName="state">
+                    <option selected>Choose...</option>
+                    <option>UP</option>
+                    <option>MP</option>
+                    <option>HP</option>
+                  </select>
+
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" formControlName="zipCode">
+
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect2">Language You Know</label>
+                <select multiple class="form-control" formControlName="language">
+                  <option>English</option>
+                  <option>Hindi</option>
+                  <option>Oriya/Odiya</option>
+                  <option>Bengali</option>
+                  <option>Other</option>
+                </select>
+
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect2">Gender</label><br>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" formControlName="gender" value="Male">
+                  <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" formControlName="gender" value="Female">
+                  <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" formControlName="gender" value="Other">
+                  <label class="form-check-label" for="inlineRadio3">Other (disabled)</label>
+                </div>
+
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Something About You</label>
+                <textarea class="form-control" rows="3" formControlName="aboutYou"></textarea>
+
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlFile1">Upload Your Photo</label>
+                <span *ngIf="edit_user"><span>Uplload image</span><br>{{upload_file_name}} <span> <a
+                      href="">Preview</a></span></span>
+                <input type="file" class="form-control-file" formControlName="uploadPhoto">
+
+              </div>
+              <div class="form-group">
+                <label for="roleSelect">Chose the rule</label>
+                <select class="form-control" formControlName="role">
+                  <option value="admin">admin</option>
+                  <option value="seller">seller</option>
+                  <option value="buyer">buyer</option>
+                </select>
+
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" formControlName="agreetc">
+                  <label class="form-check-label" for="gridCheck">
+                    Agree our term and condition
+                  </label>
+
+                </div>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary" data-bs-dismiss="modal" (click)="addUser()" *ngIf="add_user">Register</button>
+                <button class="btn btn-primary" data-bs-dismiss="modal" (click)="updateUser()" *ngIf="edit_user">Update</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,338 @@
+{
+  "user": [
+    {
+      "name": "Ashish Mishra",
+      "mobNumber": "1234567891",
+      "age": 29,
+      "dob": "1995-05-12",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "address": {
+        "addLine1": "District Center",
+        "addLine2": "Janakpuri",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "zipCode": "110052"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Bhojpuri",
+        "Telgu",
+        "Kannad"
+      ],
+      "gender": "Male",
+      "aboutYou": "I am a programmer...",
+      "uploadPhoto": "ashish.png",
+      "agreetc": true,
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "aboutYou": "HGHJBHMBMBNHTRTYRYgfhfjfjh",
+      "age": 29,
+      "agreetc": true,
+      "dob": "2024-01-02",
+      "email": "asdd@gghh.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "876444654",
+        "addLine2": "FFFFHFGHHGFH",
+        "city": "GFHFHFFHG",
+        "state": "...",
+        "zipCode": "86764664646"
+      },
+      "language": [
+        "Hindi"
+      ],
+      "mobNumber": "8446878784466465",
+      "name": "TESTY CODEIZ",
+      "password": "123456789",
+      "uploadPhoto": "C:\\fakepath\\Angular 15 (29).png",
+      "role": "seller",
+      "id": 2
+    },
+    {
+      "aboutYou": "Ashish here , You can learn Angular",
+      "age": 29,
+      "agreetc": true,
+      "dob": "1999-06-07",
+      "email": "ashish@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "mobNumber": "83685222555",
+      "name": "Ashish Mishra",
+      "password": "123456789",
+      "uploadPhoto": "C:\\fakepath\\Angular 15 (32).png",
+      "role": "buyer",
+      "id": 3
+    },
+    {
+      "aboutYou": "Something about me..",
+      "age": 31,
+      "agreetc": true,
+      "dob": "1995-12-01",
+      "email": "ashum@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "somthing.",
+        "addLine2": "near about",
+        "city": "delhi",
+        "state": "UP",
+        "zipCode": "2359865"
+      },
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "mobNumber": "86744645764",
+      "name": "Mr.Ashu",
+      "password": "123456789",
+      "uploadPhoto": "C:\\fakepath\\Angular 17 Admin (6).png",
+      "role": "buyer",
+      "id": 4
+    },
+    {
+      "aboutYou": "Soasdjalkjdljl",
+      "age": 4,
+      "agreetc": true,
+      "dob": "1998-12-02",
+      "email": "test@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "hjhjgkhkljljl",
+        "addLine2": "jljklj",
+        "city": "ljljljljl",
+        "state": "MP",
+        "zipCode": "123456"
+      },
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "mobNumber": "5564646466464",
+      "name": "Test",
+      "password": "123456789",
+      "uploadPhoto": "C:\\fakepath\\Angular 17 Admin (6).png",
+      "role": "seller",
+      "id": 5
+    },
+    {
+      "aboutYou": "aksdkahkshdkh",
+      "age": 78,
+      "agreetc": true,
+      "dob": "5588-02-05",
+      "email": "abhi@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "46464646",
+        "addLine2": "446",
+        "city": "Uttar Pradesh",
+        "state": "MP",
+        "zipCode": "9865656"
+      },
+      "language": [
+        "English"
+      ],
+      "mobNumber": "877644644464",
+      "name": "abhi",
+      "password": "646464654646",
+      "uploadPhoto": "C:\\fakepath\\Angular 17 Admin (3).png",
+      "role": "buyer",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": 2,
+      "name": "Water Bottle",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/bottle/w/5/g/1000-cello-h2o-cello-h2o-water-bottel-cello-original-imaeqtj3vyxyehmn.jpeg",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 3,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 4,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 5,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jx0prbk0/mobile-holder/t/3/d/aluminium-portable-stand-with-convenient-charging-port-design-original-imafhkkxjvphhhgz.jpeg",
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "mrp": "300",
+      "dp": "199",
+      "status": "inactive"
+    },
+    {
+      "id": 6,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": 7,
+      "name": "Water Bottle",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/bottle/w/5/g/1000-cello-h2o-cello-h2o-water-bottel-cello-original-imaeqtj3vyxyehmn.jpeg",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 8,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 9,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jx0prbk0/mobile-holder/t/3/d/aluminium-portable-stand-with-convenient-charging-port-design-original-imafhkkxjvphhhgz.jpeg",
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "mrp": "300",
+      "dp": "199",
+      "status": "inactive"
+    },
+    {
+      "id": 10,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": 11,
+      "name": "Water Bottle",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/bottle/w/5/g/1000-cello-h2o-cello-h2o-water-bottel-cello-original-imaeqtj3vyxyehmn.jpeg",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 12,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 13,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jx0prbk0/mobile-holder/t/3/d/aluminium-portable-stand-with-convenient-charging-port-design-original-imafhkkxjvphhhgz.jpeg",
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "mrp": "300",
+      "dp": "199",
+      "status": "inactive"
+    },
+    {
+      "id": 15,
+      "name": "Angular 17 tutorial",
+      "uploadPhoto": "https://ibb.co/d089hzh",
+      "productDesc": "This is an angular tutorial for beginners",
+      "mrp": "799",
+      "dp": "499",
+      "status": "publish"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "09040398006",
+      "dateTime": "18/07/2019"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 3,
+        "name": "Metro Living Self Design Pillows Cover",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+        "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+        "mrp": "500",
+        "dp": "399",
+        "status": "draft"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "1/27/2024"
+    }
+  ]
+}

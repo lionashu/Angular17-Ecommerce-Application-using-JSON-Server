@@ -1,0 +1,53 @@
+<br>
+<!-- <h2 class="text-center text-bold">You clicked on Product Id: {{single_product_id}}</h2> -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a routerLink="/buyer-dashboard">Buyer</a></li>
+    <li class="breadcrumb-item"><a>Checkout</a></li>
+  </ol>
+</nav>
+<div class="row">
+  <div class="col-md-8">
+    <div class="card">
+      <div class="card-header">
+        Product detail
+      </div>
+      <div class="card-body product-detail">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="{{individual_product.uploadPhoto}}" class="card-img-top" alt="{{individual_product.name}}">
+          </div>
+          <div class="col-md-8">
+            <h4 class="text-bold card-title">{{individual_product.name}}</h4><br>
+            <p class="card-text product-desc">{{individual_product.productDesc}}</p>
+            <p><span class="float-left"><strong>MRP:</strong><del>{{individual_product.mrp}}</del></span>
+            <span class="float-right"><strong>DP</strong>:{{individual_product.dp}}</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">
+        Address Detail
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-bold">{{user_address.name}}</h5>
+        <p class="card-text">{{user_address.addLine1}}, {{user_address.addLine2}}</p>
+        <p class="card-text">{{user_address.city}}, {{user_address.state}}</p>
+        <p class="card-text">Postal Code: {{user_address.zipCode}}</p>
+        <p class="card-text">Contact Number: {{user_contact_no}}</p>
+        <a (click)="placeOrder()" class="btn btn-primary">Deliver Here ☻</a>
+        <div class="alert alert-info" role="alert">
+          <strong>Note:</strong>
+          we are not giving multiple  address addition, if you want to deliver in diffrent address for now change the address in
+          <span routerLink="/my-profile" class="text-info sim-pointer">My profile</span>
+          Section.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
